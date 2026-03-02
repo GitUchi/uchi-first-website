@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-<title>first website </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Web Development Practice Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #4a90e2;
+            font-weight: bold;
+        }
+        section {
+            margin-top: 25px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
 </head>
-<body>
-<h1>heading 1</h1>
- <body>
 
+<body>
+
+<header>
+    <h1>Welcome to My Web Development Practice Site</h1>
+    <p>IT 3203 – HTML Basics</p>
+</header>
+
+<nav>
+    <a href="#recipe">Recipe Example</a>
+    <a href="#definitions">Definitions</a>
+    <a href="#table">Sample Table</a>
+</nav>
+
+<section id="recipe">
+    <h2>Quick Hummus Recipe</h2>
+    <p>This is a simple example showing how to structure a recipe using headings, paragraphs, lists, and ordered steps.</p>
+
+    <h3>Ingredients</h3>
+    <ul>
+        <li>1 can of chickpeas</li>
+        <li>175g tahini</li>
+        <li>6 sundried tomatoes</li>
+        <li>Half a red pepper</li>
+        <li>1 clove garlic</li>
+        <li>Olive oil</li>
+    </ul>
+
+    <h3>Instructions</h3>
+    <ol>
+        <li>Chop the garlic and pepper.</li>
+        <li>Add all ingredients to a food processor.</li>
+        <li>Blend until smooth or chunky, depending on preference.</li>
+    </ol>
+</section>
+
+<section id="definitions">
+    <h2>Drama Terms</h2>
+    <p>This example demonstrates how to use a definition list (dl, dt, dd).</p>
+
+    <dl>
+        <dt>Soliloquy</dt>
+        <dd>A character speaking their inner thoughts aloud to the audience.</dd>
+
+        <dt>Monologue</dt>
+        <dd>A long speech spoken to other characters or the audience.</dd>
+
+        <dt>Aside</dt>
+        <dd>A brief comment shared only with the audience for dramatic effect.</dd>
+    </dl>
+</section>
+
+<section id="table">
+    <h2>Sample Company Table</h2>
+    <p>This table example shows how to structure tabular data using rows and columns.</p>
+
+    <table style="width:100%">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+</section>
+
+<footer style="margin-top: 40px; text-align:center; color:#555;">
+    <p>© 2026 My Web Practice Site</p>
+</footer>
+
+</body>
 </html>
